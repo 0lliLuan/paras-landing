@@ -1,25 +1,26 @@
 const nav = {
-	Drops: 'Drops',
-	Market: 'Market',
-	Publication: 'Publication',
-	Activity: 'Activity',
-	Stats: 'Stats',
-	Login: 'Login',
-	Home: 'Home',
-	Whitepaper: 'Whitepaper',
-	SearchByTitle: 'Search by title, collection or artist',
-	VisitOurDiscord: 'Visit our Discord channel to learn more:',
-	CurrentlyWeOnly: 'Currently we only allow verified creator to create publication.',
-	NavJoinDiscord: 'Join Paras Discord',
-	NavViewWallet: 'View on NEAR Wallet',
-	NavCreateCard: 'Create Card',
-	NavLogOut: 'Log out',
-	NavSettings: 'Settings',
-	NavMyProfile: 'My Profile',
-	NavCreatePublication: 'Create Publication',
-	NavCreateCollection: 'Create Collection',
-	Languages: 'Languages',
-}
+	Drops: 'Поступления',
+	Market: 'Магазин',
+	Publication: 'Публикации',
+	Activity: 'Деятельность',
+	Stats: 'Статистика',
+	Login: 'Войти',
+	Home: 'Домашняя',
+	Whitepaper: 'Белая Книга',
+	'Search by title, collection or artist':
+	'Искать по заголовку, коллекции или художнику',
+	'Visit our Discord channel to learn more:':
+	'Посетить наш канал в Discord чтоб узнать больше:',
+	'Join Paras Discord': 'Присоединиться к Paras Discord',
+	'View on NEAR Wallet': 'Показать в кошельке NEAR',
+	'Create Card': 'Создать Карточку',
+	'Log out': 'Выйти',
+	Settings: 'Настройки',
+	'My Profile': 'Мой Профиль',
+	'Create Publication': 'Создать Публикацию',
+	'Create Collection': 'Создать Коллекцию',
+	Languages: 'Языки',
+};
 const footer = {
 	Market: 'Market',
 	Activity: 'Activity',
@@ -47,7 +48,7 @@ const home = {
 	HowWorks: 'How it Works',
 	ForCollectors: 'For Collectors',
 	DiscoverBeautifulCards:
-		'Discover beautiful art cards and collect them on a blockchain-based technology that prevents forgery andprovides provable ownership.',
+		'Discover beautiful art cards and collect them on a blockchain-based technology that prevents forgery and provides provable ownership.',
 	ExploreParas: 'Explore Paras',
 	ForArtists: 'For Artists',
 	CreateDigitalCards: `Create your digital art cards and sell them on the
@@ -200,6 +201,14 @@ const CardInfo = {
 	TotalBidAmount: 'Total bid Amount',
 	Redirecting: 'Redirecting...',
 	SubmitBid: 'Submit Bid',
+	Attributes: 'Attributes',
+	ReportTitle: 'Report this item',
+	ReportReason: 'Reason',
+	ReportDetail: 'Additional details',
+	ReportDetailPlaceholder: 'Please provide additional information',
+	ReportButton: 'Report',
+	ReportButtonLoading: 'Reporting...',
+	ReportToastSuccess: 'This item has been reported.',
 }
 const publication = {
 	PublicationParas: 'Publication — Paras',
@@ -615,4 +624,4 @@ const data = {
 	newCollection,
 }
 
-export const ru = config(data)
+export const en = config(data)
